@@ -7,7 +7,7 @@
 # for i in range(5):
 #     try:
 #         print(i / 1)
-#     except ZeroDivisionError:
+#     except ZeroDivisiwonError:
 #         print("Division By 0 Is Just Right ;)")
 #     print("The Rest Of The Code")
 
