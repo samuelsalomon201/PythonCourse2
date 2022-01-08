@@ -3,7 +3,7 @@ myvar = [1, 2, 3]
 print("myvar = ",myvar)
 
 for i in myvar:
-    print(i * 1)
+    print(i * 50)
 
 myint = 10
 
