@@ -35,3 +35,16 @@ print(function1("hell o wip"))
 def function1(x, *args):
     print(x)
     print(args)
+
+print(function1("hell o wip"))
+
+print(function1("hell o wip", 100, 200))
+
+def function1(x, *args):
+    print(x)
+    for argument in args:
+        print(argument)
+
+print(function1(1, 2, 3))
+
+# **kwards
