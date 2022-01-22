@@ -23,8 +23,21 @@ class MyNewRouter(MyRouter):
     def print_new_router(self, string):
         print(string + self.model)
 
+
 new_router1 = MyNewRouter("newr1", "1800", "111111", "12.2", "10")
 
 print(new_router1.portsno)
 print(new_router1.model)
 print(new_router1.ios)
+
+
+
+
+print(new_router1.print_router("ahakhasjakls"))
+
+print(new_router1.print_new_router("ahakhasjakls"))
+
+
+
+
+print(issubclass(MyNewRouter, MyRouter))
