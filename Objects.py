@@ -13,5 +13,5 @@ class MyRouter(object):
         print("The IOS version is: ", self.ios)
         print("The model and date combined: ", self.model + manuf_date)
           #Router
-    router1 = ('R1', '2600', '123456', '12.4')
+    router1 = ('R36', '2600', '123456', '12.4')
     print(router1)
