@@ -1,10 +1,10 @@
-def my_decorator(target_function):
-    def function_wrapper():
-        return "Python is such a " + target_function() + " language!" + "or is it?"
-    return function_wrapper
+def candy(candy_wrapper):
+    def candy_inside():
+        return "Candy is such a " + candy_wrapper() + " thing"
+    return candy_inside()
 
-@my_decorator
-def target_function():
-    return "cool"
+@candy
+def candy_wrapper():
+    return "SUSSY"
 
-print(target_function())
+print(candy_wrapper)
