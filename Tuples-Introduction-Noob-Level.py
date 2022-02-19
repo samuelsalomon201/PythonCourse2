@@ -21,3 +21,8 @@ print(Zombie_Flesh)
 # minecraft_most_useful_ores = ("Iron", "Red Stone Dust", "Netherite", "Coal", "Quarts")
 # (Gold, Glow_Stone_Dust, Diamonds, Wood) = minecraft_most_useful_ores
 # This Code Above Gives A Big Boner
+
+(Iron, Gold, Diamonds) = (10, 20, 30)
+print(Iron)
+print(Gold)
+print(Diamonds)
