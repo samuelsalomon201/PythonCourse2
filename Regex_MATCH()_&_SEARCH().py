@@ -3,19 +3,19 @@ JOJOFILES = "Part 1 = Phantom Blood Part 2 = Battle Tendency Part 3 = Stardust C
 
 import re
 
-WAAAWAAAWAAA = re.match("Part 1", JOJOFILES)
+WAAAWAAAWAAA = re.match("Part", JOJOFILES)
 print(WAAAWAAAWAAA)
 print(type(WAAAWAAAWAAA))
 
-WAAAWAAAWAAA = re.match("AMOGUS", JOJOFILES)
+WAAAWAAAWAAA = re.match("A-MOM-GUS", JOJOFILES)
 print(WAAAWAAAWAAA)
 print(type(WAAAWAAAWAAA))
 
-WAAAWAAAWAAA = re.match("Part 1", JOJOFILES)
+WAAAWAAAWAAA = re.match("Part", JOJOFILES)
 
 print(WAAAWAAAWAAA.group())
 
-WAAAWAAAWAAA = re.match("part 1", JOJOFILES, re.I)
+WAAAWAAAWAAA = re.match("part", JOJOFILES, re.I)
 print(WAAAWAAAWAAA)
 
 print(WAAAWAAAWAAA.group())
