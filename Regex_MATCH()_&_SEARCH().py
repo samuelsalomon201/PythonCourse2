@@ -3,29 +3,26 @@ JOJOFILES = "Part 1 = Phantom Blood Part 2 = Battle Tendency Part 3 = Stardust C
 
 import re
 
-WAAAWAAAWAAA = re.match("Part", JOJOFILES)
-print(WAAAWAAAWAAA)
-print(type(WAAAWAAAWAAA))
+SUUUS = re.match("Part", JOJOFILES)
+print(SUUUS)
+print(type(SUUUS))
 
-WAAAWAAAWAAA = re.match("A-MOM-GUS", JOJOFILES)
-print(WAAAWAAAWAAA)
-print(type(WAAAWAAAWAAA))
+SUUUS = re.match("A-MOM-GUS", JOJOFILES)
+print(SUUUS)
+print(type(SUUUS))
 
-WAAAWAAAWAAA = re.match("Part", JOJOFILES)
+SUUUS = re.match("Part", JOJOFILES)
 
-print(WAAAWAAAWAAA.group())
+print(SUUUS.group())
 
-WAAAWAAAWAAA = re.match("part", JOJOFILES, re.I)
-print(WAAAWAAAWAAA)
+SUUUS = re.match("part", JOJOFILES, re.I)
+print(SUUUS)
 
-print(WAAAWAAAWAAA.group())
+print(SUUUS.group())
 
 JOJOFILES = "Part 1 = Phantom Blood Part 2 = Battle Tendency Part 3 = Stardust Crusaders Part 4 = Diamond Is Unbreakable" \
             " Part 5 = Golden Wing  Part 6 = Jojo Stone Ocean Part 7 = Steel Ball Run Part 8 = Jojolion"
-WAAAWAAAWAAA = re.match("part 1", JOJOFILES, re.I)
-print(WAAAWAAAWAAA)
-print(type(WAAAWAAAWAAA))
-# WAAWAAWAA = re.search()
-
-while True:
-    input(":< ")
+SUUUS = re.match("part 1", JOJOFILES, re.I)
+print(SUUUS)
+print(type(SUUUS))
+# SUUUS = re.search()
