@@ -28,4 +28,4 @@ print(type(SUUUS))
 # SUUUS = re.search()
 
 while True:
-    input("[ $ ] ")
+    input("*** ")
