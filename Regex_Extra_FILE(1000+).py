@@ -9,3 +9,7 @@ SUS = re.search(r"(.+) +(\d) +(.+?)\s{2,}(\w)*", arp)
 print(SUS.group(1))
 
 print(SUS.group(2))
+
+while True:
+    input("[ $ ] ")
+
