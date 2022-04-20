@@ -1,4 +1,3 @@
-# Start Of Code
 import math
 
 while True:
@@ -6,7 +5,6 @@ while True:
         "\nChoose the math operation.\n\n0 - Addition\n1 - Subtraction\n2 - Multiplication\n3 - Division\n4 - Modulo\n5 - Raising to a power\n6 - Logarithm\n8 - Sine\n9 - Cosine\n10 - Tangent\n11 - None\n")
     operation = input("\nYour option from the menu ඞ: ")
 
-    # Addition
     if operation == "0":
         val1 = float(input("\nFirst Value: "))
         val2 = float(input("\nSecond Value: "))
@@ -20,7 +18,6 @@ while True:
         else:
             break
 
-    # Subtraction
     elif operation == "1":
         val1 = float(input("\nFirst Value: "))
         val2 = float(input("\nSecond Value: "))
@@ -34,7 +31,6 @@ while True:
         else:
             break
 
-    # Multiplication
     elif operation == "2":
         val1 = float(input("\nFirst Value: "))
         val2 = float(input("\nSecond Value: "))
@@ -48,7 +44,6 @@ while True:
         else:
             break
 
-    # Division
     elif operation == "3":
         val1 = float(input("\nFirst Value: "))
         val2 = float(input("\nSecond Value: "))
@@ -62,7 +57,6 @@ while True:
         else:
             break
 
-    # Modulo
     elif operation == "4":
         val1 = float(input("\nFirst Value: "))
         val2 = float(input("\nSecond Value: "))
@@ -76,7 +70,6 @@ while True:
         else:
             break
 
-    # Raising to a power
     elif operation == "5":
         val1 = float(input("\nFirst Value: "))
         val2 = float(input("\nSecond Value: "))
@@ -90,7 +83,6 @@ while True:
         else:
             break
 
-    # Square root
     elif operation == "6":
         val1 = float(input("\nEnter value for extracting the square root: "))
 
@@ -103,7 +95,6 @@ while True:
         else:
             break
 
-    # Logarithm
     elif operation == "7":
         val1 = float(input("\nEnter value for calculating the logarithm to base: "))
 
@@ -116,7 +107,6 @@ while True:
         else:
             break
 
-    # Sine
     elif operation == "8":
         val1 = float(input("\nEnter value (in degrees) for calculating the sine: "))
 
@@ -129,7 +119,6 @@ while True:
         else:
             break
 
-    # Cosine
     elif operation == "9":
         val1 = float(input("\nEnter value (in degrees) for calculating the cosine: "))
 
@@ -142,7 +131,6 @@ while True:
         else:
             break
 
-    # Tangent
     elif operation == "9":
         val1 = float(input("\nEnter value (in degrees) for calculating the tangent: "))
 
