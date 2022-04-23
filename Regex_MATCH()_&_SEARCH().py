@@ -28,4 +28,8 @@ print(type(SUUUS))
 # SUUUS = re.search()
 
 while True:
+<<<<<<< Updated upstream
     input("*** ")
+=======
+    input("[ $ ] ")
+>>>>>>> Stashed changes

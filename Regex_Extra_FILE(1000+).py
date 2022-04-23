@@ -12,4 +12,7 @@ print(SUS.group(2))
 
 while True:
     input("[ $ ] ")
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
