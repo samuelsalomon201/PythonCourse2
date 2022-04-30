@@ -2,7 +2,8 @@ import math
 
 while True:
     print(
-        "\nChoose the math operation.\n\n0 - Addition\n1 - Subtraction\n2 - Multiplication\n3 - Division\n4 - Modulo\n5 - Raising to a power\n6 - Logarithm\n8 - Sine\n9 - Cosine\n10 - Tangent\n11 - None\n")
+        "\nChoose the math operation.\n\n0 - Addition\n1 - Subtraction\n2 - Multiplication\n3 - Division\n4 - Modulo\n5" \
+        " - Raising to a power\n6 - Logarithm\n8 - Sine\n9 - Cosine\n10 - Tangent\n11 - None\n")
     operation = input("\nYour option from the menu ඞ: ")
 
     if operation == "0":
